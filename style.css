@@ -3,14 +3,19 @@ font-family: Arial, sans-serif;
 background-color: #f4f1ee;
 color: #2c2c2c;
 line-height: 1.8;
-padding: 20px;
+margin: 0;
+padding: 0;
+display: flex; /* Usamos flexbox para centralizar */
+justify-content: center; /* Alinha horizontalmente */
+align-items: center; /* Alinha verticalmente */
+height: 100vh; /* 100% da altura da tela */
 text-align: center; /* Centraliza o texto */
-font-size: 18px; /* Aumenta o tamanho da fonte geral */
+font-size: 22px; /* Aumenta o tamanho da fonte geral */
 }
 
 header, footer {
 background-color: #d4c2a8;
-padding: 20px;
+padding: 30px;
 }
 
 nav a {
@@ -18,21 +23,22 @@ margin: 0 15px;
 color: #2c2c2c;
 text-decoration: none;
 font-weight: bold;
+font-size: 24px; /* Aumenta o tamanho do texto no menu */
 }
 
 main {
 max-width: 800px;
-margin: 0 auto;
+width: 100%;
 }
 
 h1 {
-color: #002f6c; /* Azul escuro */
-font-size: 36px;
+color: #003366; /* Azul escuro */
+font-size: 48px; /* Aumenta o tamanho do título principal */
 }
 
 h2 {
-color: #5a4637;
-font-size: 28px;
+color: #003366; /* Azul escuro */
+font-size: 36px; /* Aumenta o tamanho dos subtítulos */
 }
 
 ul {
@@ -41,5 +47,12 @@ padding: 0;
 }
 
 ul li {
-margin-bottom: 10px;
+margin-bottom: 20px;
+font-size: 24px; /* Aumenta o tamanho do texto dos itens */
+}
+
+footer {
+position: absolute; /* Coloca o rodapé na parte inferior da tela */
+bottom: 0;
+width: 100%;
 }
